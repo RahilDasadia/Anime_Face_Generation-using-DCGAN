@@ -16,3 +16,4 @@ Deep Convolutional Generative Adversarial Network (DCGAN)
 
 IMPORTANT NOTE:-
 If you want to see the code than you can download raw file of code and see and use it in any IDE(jupyter notebook,kaggle,colab etc).
+For viewing code you can refer to attached pdf.
