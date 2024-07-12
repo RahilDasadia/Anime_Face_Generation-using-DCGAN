@@ -9,10 +9,10 @@ Libraries
 numpy,
 matplotlib,
 keras,
-tensorflow,
+tensorflow.
 
 Neural Network:- 
 Deep Convolutional Generative Adversarial Network (DCGAN)
 
 IMPORTANT NOTE:-
-If you want to see the code than you can download raw file of code and see and use it in any IDE(jupyter notebook,kaggle,colab etc)
+If you want to see the code than you can download raw file of code and see and use it in any IDE(jupyter notebook,kaggle,colab etc).
