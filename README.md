@@ -1,19 +1,41 @@
-Project Information:-
-The objective of the project is to Generate Anime Faces using Deep Convolutional Generative Adversarial Network (DCGAN) with Keras and Tensorflow in Kaggle Notebook. This is an advanced deep learning project which we have to train 2 models, namely generator and discriminator. The Discriminator try to classify the images whether it is real (or) fake images. The Generator try to produce images that are close to real and fool the discriminator. Finally, the generator will produce similar images to the train dataset with different variety as output.
+Project Overview:
+This project demonstrates the generation of anime-style faces using a Deep Convolutional Generative Adversarial Network (DCGAN) implemented in TensorFlow and Keras. The model is trained to create high-quality synthetic images that closely resemble real anime character faces.
 
-Download link: https://www.kaggle.com/datasets/soumikrakshit/anime-faces
+Two models are used:
+Generator: Produces synthetic anime faces.
+Discriminator: Classifies images as real or fake.
 
-Environment: Kaggle
+Through adversarial training, the generator learns to create realistic images that can "fool" the discriminator.
 
-Libraries
-numpy,
-matplotlib,
-keras,
-tensorflow.
+🧠 Objective
+To build and train a DCGAN that generates diverse and visually realistic anime faces from random noise input, using a large dataset of preprocessed anime face images.
 
-Neural Network:- 
-Deep Convolutional Generative Adversarial Network (DCGAN)
+🛠️ Environment & Tools
+Platform: Kaggle Notebook
 
-IMPORTANT NOTE:-
-If you want to see the code than you can download raw file of code and see and use it in any IDE(jupyter notebook,kaggle,colab etc).
-For viewing code you can refer to attached pdf.
+Libraries: TensorFlow, Keras, NumPy, Matplotlib
+
+📂 Dataset
+Source: Anime Faces Dataset – Kaggle
+
+Contains 21,551 cropped and cleaned anime face images.
+
+🧪 Model Highlights
+Implemented using DCGAN architecture.
+Trained on >21k images.
+Tuned learning rates for both generator and discriminator.
+Trained over 100+ epochs.
+
+Output: Visually diverse anime faces resembling dataset samples
+
+🔗 How to Run
+The code is provided as a Jupyter notebook. You can run it on:
+Kaggle
+Google Colab
+Jupyter Notebook (locally)
+
+📄 If you're viewing this repository on GitHub, download the .ipynb file or see the attached .pdf for a preview of the full notebook.
+
+📎 Notes
+This is a research-oriented deep learning project aimed at exploring generative models.
+Final outputs demonstrate realistic image synthesis through adversarial training.
